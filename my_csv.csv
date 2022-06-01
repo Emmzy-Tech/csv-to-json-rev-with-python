@@ -1,0 +1,6 @@
+Type,From,To,Cidr,Description, 
+tcp,22,22,10.0.0.0/24,"connection from vpn"
+udp,80,80,10.1.1.1/23,"connection to data center"
+cpc,81,21,10.1.1.2/27,"connected already"
+apc,82,21,10.1.1.2/27,"connected"
+apc,82,21,10.1.1.2/27,"connected"

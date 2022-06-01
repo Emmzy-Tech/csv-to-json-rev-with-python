@@ -1,0 +1,37 @@
+[
+    {
+        "Type": "tcp",
+        "From": "22",
+        "To": "22",
+        "Cidr": "10.0.0.0/24",
+        "Description": "connection from vpn"
+    },
+    {
+        "Type": "udp",
+        "From": "80",
+        "To": "80",
+        "Cidr": "10.1.1.1/23",
+        "Description": "connection to data center"
+    },
+    {
+        "Type": "cpc",
+        "From": "81",
+        "To": "21",
+        "Cidr": "10.1.1.2/27",
+        "Description": "connected already"
+    },
+    {
+        "Type": "apc",
+        "From": "82",
+        "To": "21",
+        "Cidr": "10.1.1.2/27",
+        "Description": "connected"
+    },
+    {
+        "Type": "apc",
+        "From": "82",
+        "To": "21",
+        "Cidr": "10.1.1.2/27",
+        "Description": "connected"
+    }
+]
