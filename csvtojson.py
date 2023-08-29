@@ -3,7 +3,7 @@ import json
 
 # Convert From CSV to JSON
 
-
+#This coverts to json from csv
 def csv_to_json():
     csv_file_name = input("Input your csv file name: ") 
     if ".csv" not in csv_file_name:
@@ -30,6 +30,7 @@ def csv_to_json():
         json.dump(data, myjsonfile, indent=4)
     myjsonfile.close()
 
+#This coverts from json to csv
 def json_to_csv():
     json_file_name = input("Input your json file name: ")
     if ".json" not in json_file_name:
@@ -65,7 +66,7 @@ def run_program():
         else:
             print("wrong input, input a correct selection 'csvtojson' or 'jsontocsv'")
             
-
+#Execute Program
 run_program()
     
 
